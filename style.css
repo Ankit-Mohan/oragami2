@@ -1,0 +1,57 @@
+h1
+ {
+     color:white;
+     padding:10px;
+}
+
+
+*{
+    font-family: cursive;  
+}
+.header{
+background-color:indianred;
+display:flex;
+justify-content:space-around;   
+}
+.grid{
+display:flex;
+flex-wrap:wrap;
+justify-content:space-evenly;
+margin:initial;
+
+}
+
+.menu{
+    margin-right: 20px;
+}
+
+.menu a 
+{
+    margin-left: 30px;
+}
+.header *
+{
+    border:solid;
+    margin-left: 30px
+}
+
+.item {
+    position: relative;
+}
+
+
+.footer{
+    display:flex;
+justify-content:right;
+} 
+
+
+a:link{
+    color:red;
+}
+a:visited
+{
+color:green;
+}
+
+
